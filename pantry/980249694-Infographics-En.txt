@@ -1,0 +1,580 @@
+    Infographics
+Visual impact for your research
+
+
+
+
+   Koen Van den Eeckhout - Baryon
+All the slides and all the links:
+https://baryon.be/infographics-resources
+Introductions
+2004 - 09
+Engineering physics (UGent)
+
+2009 - 13
+PhD in physics (UGent)
+
+2013 - 15
+Post-doctoral researcher
+
+2015 - 18
+Consultant grants & incentives
+Founded Baryon
+
+
+2019 - now
+Full-time information designer
+at Baryon
+
+
+
+koen@baryon.be
+Breaking down   What is an infographic?
+                What is a good infographic?
+
+                                                             10’ break
+
+ The essence    Identify the story
+                Find inspiration
+                Build a structure
+
+                                                             10’ break
+
+     Creating   Available tools
+                Available resources
+                A short introduction to data visualization
+
+                                                             10’ break
+
+                Further exploration
+                Q&A
+   Breaking down
+What defines a great infographic?
+What is an infographic?
+  Infographics are graphic visual representations of
+  information, data or knowledge intended to
+  present information quickly and clearly.
+  Wikipedia
+
+                               An infographic is a visual representation of information
+                               in the form of a chart, graph, or other image accompanied
+                               by minimal text, intended to give an easily understood
+                               overview, often of a complex subject.
+                               dictionary.com
+
+
+
+              An infographic tells a story with images and text. The
+              images are not only illustrative but also information carriers.
+              Studio Lakmoes
+     infographic
+
+         information
+
+         represented by
+
+
+images         +          minimal text
+
+
+            to tell a
+
+
+            story
+What is a good infographic?
+Group exercise (20 minutes)
+
+   You will be divided into 4 break-out groups
+
+   Each group receives 8 infographics to discuss
+
+   As a group, choose your most and least favorite infographic and explain why
+What is a good infographic?
+Group discussion
+
+
+    Whimsical board
+What is a good infographic?
+
+          Overview first,
+          zoom and filter,
+          then details-on-demand.
+          Ben Shneiderman
+
+
+
+
+                                    Move away from complexity
+                                and remove irrelevant detail
+                            until only what is essential remains.
+                                                     Nigel Holmes
+What is a good infographic?
+
+              Aside from being clear and well-designed,
+              visuals must also forge
+              an emotional connection with readers.
+              Kat Downs Mulder
+
+
+
+
+     It's not possible for an infographer to be able to do everything,
+                 least of all now, in the digital era. What is truly essential
+               in an infographer is the ability to organize information.
+                                                                     Archie Tse
+           Break
+All the slides and all the links:
+https://baryon.be/infographics-resources
+The essence
+What’s your story?
+Breaking down   What is an infographic?
+                What is a good infographic?
+
+                                                             10’ break
+
+ The essence    Identify the story
+                Find inspiration
+                Build a structure
+
+                                                             10’ break
+
+     Creating   Available tools
+                Available resources
+                A short introduction to data visualization
+
+                                                             10’ break
+
+                Further exploration
+                Q&A
+Identify the story
+
+
+
+
+                      define your goals
+                     define your audience
+                     define your message
+my most challenging
+  presentation ever
+when you don’t adapt
+  to your audience…
+Identify the story
+
+
+                list available data and illustrations
+                       refine, study, complete
+                     look for outliers & surprises
+                        define key message(s)
+                            limit yourself
+full name
+year of award
+date of birth
+place of birth
+date of death
+prize share
+picture
+--
+gender
+https://datasetsearch.research.google.com/
+                        Average age                                               Number of laureates
+100                                                        3.5
+
+                                                            3
+90
+                                                           2.5
+
+80                                                          2
+
+                                                           1.5
+70
+                                                            1
+
+60                                                         0.5
+
+                                                            0
+                                                             1880   1900   1920     1940   1960   1980   2000   2020   2040
+50
+
+
+40
+
+
+30
+
+
+20
+  1900    1920   1940       1960      1980   2000   2020
+
+
+
+
+      gender balance
+      M                   212
+      F                     4
+https://baryon.be/nobelprize
+Identify the story
+
+
+                list available data and illustrations
+                      refine, study, complete
+                  look for outliers & surprises
+                      define key message(s)
+                           limit yourself
+Always with Honor
+Identify the story
+Individual exercise (5 minutes)
+
+   Identify 3 key messages about your research
+
+   Pick your favorite one and turn it into a short, memorable sentence
+
+   Share it with the group using the chat
+Find inspiration
+
+      informationisbeautiful.net
+Find inspiration
+
+      Information is beautiful - awards
+Find inspiration
+
+      visual.ly/view
+Find inspiration
+
+      pinterest.com
+Find inspiration
+
+      d3js.org
+Find inspiration
+     Information graphics          Visual thinking            Visual journalism
+     Taschen                       Willemien Brand            Gestalten
+
+
+
+
+     Infographic designers’        The visual display of      Storytelling
+     sketchbooks                   quantitative information   with data
+     Steven Heller, Rick Landers   Edward R. Tufte            Cole Nussbaumer
+                                                              Knaflic
+
+
+
+
+     Data visualisation            Trees, maps and            Dear data
+     Andy Kirk                     theorems                   Stefanie Posavec,
+                                   Jean-Luc Doumont           Giorgia Lupi
+Find inspiration
+
+
+
+
+Full Dataviz World Leaders list at: https://twitter.com/i/lists/1245739906686767104
+Build a structure
+
+
+
+                     define the format
+                    use pencil and paper
+                    draw rough layouts
+Source: Infographic Designers’ Sketchbooks
+Source: Infographic Designers’ Sketchbooks
+Build a structure
+
+
+
+                        define the format
+                       use pencil and paper
+                       draw rough layouts
+                    explore multiple concepts
+Build a structure
+
+
+
+                    list the facts
+Build a structure
+
+
+
+                     list the facts
+                    follow the path
+The Slow Journalism Company
+David McCandless
+Build a structure
+
+
+
+                      list the facts
+                     follow the path
+                    free exploration
+The Stellar Nursery,
+ David McCandless
+Build a structure
+
+
+
+                       list the facts
+                      follow the path
+                     free exploration
+                    draw the attention
+Francesco Franchi
+Simon Scarr
+Build a structure
+Individual exercise (5 minutes)
+
+   Take pen and paper, and the key message from the previous exercise
+
+   Sketch how a layout could look like
+
+   Which visual will be the centerpiece? Which details can you put around it?
+
+   Challenge yourself to explore different approaches
+           Break
+All the slides and all the links:
+https://baryon.be/infographics-resources
+       Creating
+Building your own infographic
+Breaking down   What is an infographic?
+                What is a good infographic?
+
+                                                             10’ break
+
+ The essence    Identify the story
+                Find inspiration
+                Build a structure
+
+                                                             10’ break
+
+     Creating   Available tools
+                Available resources
+                A short introduction to data visualization
+
+                                                             10’ break
+
+                Further exploration
+                Q&A
+Adobe Illustrator
+ “industry standard”
+ extremely powerful
+ steep learning curve
+expensive subscription
+ Alternative: Affinity Designer
+nearly as powerful as Adobe Illustrator
+      still a steep learning curve
+    one-off payment (approx. €55)
+Alternative: Inkscape   https://inkscape.org/release/inkscape-1.0.1/
+Available tools
+Online
+
+
+
+         Canva       Infogram       Piktochart       Visme
+         canva.com   infogram.com   piktochart.com   visme.co
+Canva
+  lots of templates, fonts, images,… - also in free version
+  easy to use – drag and drop
+  very limited chart options
+
+Infogram
+  better for charts, even real-time/interactive
+  no downloads in free version
+
+Piktochart
+  pretty complete for starters, good chart options
+  limited number of visuals in free version
+
+Visme
+  not too expensive, similar options to Piktochart
+  limited number of visuals in free version
+PowerPoint   what you see is what you get
+             you already have it and use it
+             templates available
+    Ella
+Frances
+Sanders
+Ward Shelley
+Mona Chalabi
+Dear Data
+National Geographic Magazine, 2010
+Jan Schwochow
+Jaime Serra
+Available resources
+
+                      photography
+                      illustrations
+                         icons
+                         colors
+                         fonts
+                        graphs
+unsplash.com
+pixabay.com
+picography.co
+burst.shopify.com
+reshot.com
+freepik.com
+thenounproject.com
+coolors.co
+      trust,   happiness,
+   stability   warmth
+
+
+
+   energy,     sensitive,
+   passion     love
+
+
+
+
+   friendly,   rich,
+    natural    mistery
+
+
+
+
+    history,   neutral,
+intelligence   calm
+Accent colours
+canva.com
+canva.com
+dafont.com   fonts.google.com
+Serif                     Sans serif
+perfect for body text   perfect for titles
+dress for the occasion
+
+
+
+use decisive contrast        http://www.fontpair.co
+
+
+
+
+a little can go a long way
+www.datavizcatalogue.com
+ Available tools
+
+
+
+
+                                            Datawrapper             Flourish
+                                            datawrapper.de    flourish.studio
+https://baryon.be/files/MM/2020/W04/
+https://baryon.be/data-visualization-tools-datawrapper/
+
+
+
+
+                                  RAWgraphs                  LocalFocus
+                                  rawgraphs.io               localfocus.nl
+…but what about Excel?
+Less common chart types
+Waffle chart
+
+
+
+
+                          economist.com
+Less common chart types
+Beeswarm plot
+Less common chart types
+Strip chart
+Less common chart types
+Slopegraph
+Less common chart types
+Sankey diagram
+https://flourish.studio/visualisations/sankey-charts/
+Charles Minard, 1869
+A checklist for the perfect data visual
+  1. Is my message clear?
+  2. Do I really need a chart?
+  3. Did I choose the best chart type?
+  4. Is my chart easy to understand
+     without additional explanation?
+  5. Can I remove superfluous ‘ink’
+     to increase the data-to-ink ratio?
+  6. Are my colours clear and accessible?
+  7. Are my charts consistent
+     throughout my article, poster, or thesis?
+Tool try-out
+Individual exercise (10 minutes)
+
+   Pick a tool or resource you like and try it out
+
+   If there’s a burning question or something you are struggling with,
+   drop it in the chat
+           Break
+All the slides and all the links:
+https://baryon.be/infographics-resources
+Further exploration
+     What’s next?
+Books
+    Information graphics          Visual thinking            Visual journalism
+    Taschen                       Willemien Brand            Gestalten
+
+
+
+
+    Infographic designers’        The visual display of      Storytelling
+    sketchbooks                   quantitative information   with data
+    Steven Heller, Rick Landers   Edward R. Tufte            Cole Nussbaumer
+                                                             Knaflic
+
+
+
+
+    Data visualisation            Trees, maps and            Dear data
+    Andy Kirk                     theorems                   Stefanie Posavec,
+                                  Jean-Luc Doumont           Giorgia Lupi
+Twitter
+
+
+
+
+Full Dataviz World Leaders list at: twitter.com/Koen_VdE/lists
+Blogs
+
+
+
+
+  Visualising Data   Nightingale   Baryon blog
+
+
+
+
+   Flowing Data      Visme blog
+                                   Chartable
+Videos
+
+
+
+
+The beauty of data visualization   Journalism in the age of data   Datafest online 2020
+David McCandless                   Geoff McGhee                    78 different talks
+https://youtu.be/5Zg-C8AAIGg       datajournalism.stanford.edu     https://www.youtube.com/channel/UCVdY
+                                                                   DItF8AhssMKrgdNPGgQ
+Podcasts
+
+
+
+
+  Data Stories      Datasaurus Rex
+
+
+
+
+                    Storytelling with data
+  Explore Explain
+                  Q&A
+    All the slides and all the links:
+    https://baryon.be/infographics-resources
+
+
+
+
+Koen Van den Eeckhout – koen@baryon.be - @koen_vde
+                 Thanks!
+         All the slides and all the links:
+         https://baryon.be/infographics-resources
+
+
+
+
+Koen Van den Eeckhout – koen@baryon.be - @koen_vde
+

@@ -1,0 +1,66 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The four-job test for annotation</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">If a piece of text does none of these four jobs, it is not annotation &#8212; it is noise. Cut it.</text>
+
+  <!-- Candidate text entering -->
+  <rect x="32" y="92" width="120" height="240" fill="#F5F5F5" stroke="#D4D4D4"/>
+  <text x="92" y="112" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" text-anchor="middle">CANDIDATES</text>
+  <g font-family="Inter, sans-serif" font-size="10" fill="#2a1a0e">
+    <text x="44" y="138">title restater</text>
+    <text x="44" y="158">40 point labels</text>
+    <text x="44" y="178">corner legend</text>
+    <text x="44" y="198">"income rises"</text>
+    <text x="44" y="218">"gap widens 2008"</text>
+    <text x="44" y="238">"2008&#8211;09 recession"</text>
+    <text x="44" y="258">"not inflation-adj."</text>
+    <text x="44" y="278">decorative tag</text>
+  </g>
+  <line x1="156" y1="212" x2="200" y2="212" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Four gates -->
+  <!-- Gate 1: Interpretation (RED accent — highest value) -->
+  <rect x="208" y="96" width="284" height="44" fill="#C8102E"/>
+  <text x="220" y="116" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">1 &#183; INTERPRETATION &#8212; states the claim</text>
+  <text x="220" y="132" font-family="Inter, sans-serif" font-size="10" fill="#FFFFFF">"The gap widens fastest after 2008"  (highest value)</text>
+
+  <!-- Gate 2: Orientation -->
+  <rect x="208" y="148" width="284" height="44" fill="#2a1a0e"/>
+  <text x="220" y="168" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">2 &#183; ORIENTATION &#8212; how to read it</text>
+  <text x="220" y="184" font-family="Inter, sans-serif" font-size="10" fill="#FFFFFF">direct endpoint labels (kills the legend)</text>
+
+  <!-- Gate 3: Context -->
+  <rect x="208" y="200" width="284" height="44" fill="#2a1a0e"/>
+  <text x="220" y="220" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">3 &#183; CONTEXT &#8212; info not in the data</text>
+  <text x="220" y="236" font-family="Inter, sans-serif" font-size="10" fill="#FFFFFF">"2008&#8211;09 recession shaded"</text>
+
+  <!-- Gate 4: Caveat -->
+  <rect x="208" y="252" width="284" height="44" fill="#2a1a0e"/>
+  <text x="220" y="272" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">4 &#183; CAVEAT &#8212; names a limitation</text>
+  <text x="220" y="288" font-family="Inter, sans-serif" font-size="10" fill="#FFFFFF">"not inflation-adjusted"</text>
+
+  <!-- CUT bin -->
+  <line x1="356" y1="300" x2="356" y2="336" stroke="#545454" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="208" y="340" width="284" height="44" fill="#FFFFFF" stroke="#D4D4D4"/>
+  <text x="220" y="360" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">CUT &#8212; DOES NO NEEDED JOB</text>
+  <text x="220" y="378" font-family="Inter, sans-serif" font-size="10" fill="#545454">title restater &#183; 40 labels &#183; "income rises" &#183; decorative tag</text>
+
+  <!-- Right note -->
+  <line x1="492" y1="118" x2="528" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="536" y="96" width="132" height="190" fill="#F5F5F5"/>
+  <text x="548" y="118" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">The test is not</text>
+  <text x="548" y="134" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">"could this do a</text>
+  <text x="548" y="150" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">job?" but "does it</text>
+  <text x="548" y="166" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">do a job the figure</text>
+  <text x="548" y="182" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">needs and no other</text>
+  <text x="548" y="198" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">element is doing?"</text>
+  <line x1="548" y1="214" x2="656" y2="214" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="548" y="236" font-family="Inter, sans-serif" font-size="11" fill="#545454">A tool generates</text>
+  <text x="548" y="252" font-family="Inter, sans-serif" font-size="11" fill="#545454">captions forever.</text>
+  <text x="548" y="268" font-family="Inter, sans-serif" font-size="11" fill="#545454">You are the</text>
+  <text x="548" y="284" font-family="Inter, sans-serif" font-size="11" fill="#545454">deletion.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The same brief, twice</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">Same model, same data, same ninety seconds. The governing context is the only variable — and the lesson.</text>
+
+  <!-- the brief (root) -->
+  <rect x="270" y="74" width="160" height="44" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="350" y="94" font-family="EB Garamond, Georgia, serif" font-size="13" fill="#2a1a0e" text-anchor="middle">ONE BRIEF</text>
+  <text x="350" y="110" font-family="Inter, sans-serif" font-size="10" fill="#545454" text-anchor="middle">vaccine-efficacy figure</text>
+
+  <!-- fork -->
+  <path d="M310 118 L 175 150" fill="none" stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <path d="M390 118 L 525 150" fill="none" stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- ===== LEFT: specification-less ===== -->
+  <rect x="40" y="154" width="280" height="40" fill="#FFFFFF" stroke="#545454"/>
+  <text x="54" y="172" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">RUN ONE — SPECIFICATION-LESS</text>
+  <text x="54" y="187" font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">bare prompt · no governing files in context</text>
+
+  <!-- violation tally -->
+  <rect x="40" y="202" width="280" height="150" fill="#F5F5F5" stroke="#D4D4D4"/>
+  <text x="54" y="222" font-family="EB Garamond, Georgia, serif" font-size="13" fill="#2a1a0e">Counted against the CLAUDE.md checklist</text>
+  <!-- 11 ticks; two flagged as lies in grey-heavy treatment -->
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <text x="54" y="244">1  HARDCODED HEX (BAND)</text>
+    <text x="54" y="259">2  HARDCODED HEX (LINE)</text>
+    <text x="54" y="274">3  DECORATIVE GRADIENT</text>
+    <text x="54" y="289">4  .style() VISUAL PROPS</text>
+    <text x="54" y="304">5–8  DEFAULT FONTS · ANON GROUPS</text>
+    <text x="54" y="319" fill="#2a1a0e" font-weight="bold">9   BAND OCCLUDES LINE (PAINTER)</text>
+    <text x="54" y="334">10  NO CAJAL METADATA</text>
+    <text x="54" y="349" fill="#2a1a0e" font-weight="bold">11  TRUNCATED AXIS, UNDISCLOSED</text>
+  </g>
+
+  <!-- big count -->
+  <text x="300" y="338" font-family="EB Garamond, Georgia, serif" font-size="40" fill="#2a1a0e" text-anchor="end">11</text>
+  <text x="300" y="352" font-family="JetBrains Mono, monospace" font-size="8" fill="#545454" text-anchor="end">VIOLATIONS</text>
+
+  <!-- ===== RIGHT: specification-driven (RED ACCENT) ===== -->
+  <rect x="380" y="154" width="280" height="40" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="394" y="172" font-family="JetBrains Mono, monospace" font-size="10" fill="#C8102E">RUN TWO — SPECIFICATION-DRIVEN</text>
+  <text x="394" y="187" font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">CLAUDE.md + DESIGN.md + SCOPE in context</text>
+
+  <rect x="380" y="202" width="280" height="150" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="394" y="222" font-family="EB Garamond, Georgia, serif" font-size="13" fill="#2a1a0e">Same checklist, same model</text>
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#2a1a0e">
+    <text x="394" y="244">TOKENS, NOT HEX</text>
+    <text x="394" y="259">NO GRADIENT · .attr() ONLY</text>
+    <text x="394" y="274">THREE-FONT STACK</text>
+    <text x="394" y="289">NAMED PAINTER-ORDER LAYERS</text>
+    <text x="394" y="304">BAND BEHIND LINE</text>
+    <text x="394" y="319">CAJAL METADATA PRESENT</text>
+    <text x="394" y="334">Y-AXIS BEGINS AT ZERO</text>
+  </g>
+  <text x="640" y="338" font-family="EB Garamond, Georgia, serif" font-size="40" fill="#C8102E" text-anchor="end">0</text>
+  <text x="640" y="352" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8102E" text-anchor="end">CORRECTIONS · DEFENSIBLE</text>
+
+  <!-- footnote / legend -->
+  <text x="32" y="382" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">Counts 9 and 11 are the dangerous ones: data-accurate, perceptually misleading, dressed in the authority of a clean chart.</text>
+  <text x="32" y="398" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">The agent did not lie on purpose — it optimized for "clean and professional," and a truncated axis looks cleaner.</text>
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#C8102E">
+    <rect x="32" y="406" width="12" height="11" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+    <text x="50" y="415">RED = THE SPEC-DRIVEN BRANCH THE BOOK ENDORSES</text>
+  </g>
+</svg>

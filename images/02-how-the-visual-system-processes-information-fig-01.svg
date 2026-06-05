@@ -1,0 +1,49 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"><rect width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="36" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#2a1a0e">The Cleveland–McGill channel-accuracy ladder</text>
+<text x="32" y="54" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">MOST ACCURATE AT TOP — READING ERROR WIDENS AS YOU DESCEND</text>
+
+<!-- error-band axis label -->
+<text x="540" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">READING ERROR →</text>
+
+<!-- Rung 1: position common scale (RED, most accurate) -->
+<rect x="32" y="84" width="20" height="20" fill="#C8102E"/>
+<text x="64" y="99" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">1 · Position on a common scale</text>
+<rect x="408" y="86" width="36" height="16" fill="#C8102E"/>
+<text x="452" y="99" font-family="'JetBrains Mono', monospace" font-size="9" fill="#545454">MOST ACCURATE</text>
+
+<!-- Rung 2: position non-aligned -->
+<rect x="32" y="124" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="139" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">2 · Position on non-aligned scales</text>
+<rect x="408" y="126" width="62" height="16" fill="#D4D4D4"/>
+
+<!-- Rung 3: length -->
+<rect x="32" y="164" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="179" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">3 · Length</text>
+<rect x="408" y="166" width="96" height="16" fill="#D4D4D4"/>
+
+<!-- Rung 4: angle / slope -->
+<rect x="32" y="204" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="219" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">4 · Angle / slope</text>
+<rect x="408" y="206" width="134" height="16" fill="#D4D4D4"/>
+
+<!-- Rung 5: area (where the Ch.1 circles sit) -->
+<rect x="32" y="244" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="259" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">5 · Area</text>
+<text x="160" y="259" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">← THE CH.1 CIRCLES LIVE HERE</text>
+<rect x="408" y="246" width="176" height="16" fill="#D4D4D4"/>
+
+<!-- Rung 6: volume / curvature -->
+<rect x="32" y="284" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="299" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">6 · Volume / curvature</text>
+<rect x="408" y="286" width="212" height="16" fill="#D4D4D4"/>
+
+<!-- Rung 7: color hue -->
+<rect x="32" y="324" width="20" height="20" fill="#2a1a0e"/>
+<text x="64" y="339" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">7 · Color hue / saturation</text>
+<rect x="408" y="326" width="244" height="16" fill="#D4D4D4"/>
+<text x="540" y="339" font-family="'JetBrains Mono', monospace" font-size="9" fill="#545454">LEAST ACCURATE</text>
+
+<!-- rule -->
+<line x1="32" y1="362" x2="668" y2="362" stroke="#C8860E" stroke-width="2"/>
+<text x="32" y="386" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The rule: match the channel to the precision the task demands.</text>
+</svg>

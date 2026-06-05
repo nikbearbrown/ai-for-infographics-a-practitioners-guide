@@ -1,0 +1,80 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The semantic layer scaffold</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">Named layers built up front in painter's order: rendering order and editorial naming become one act.</text>
+
+  <!-- ===== LEFT: SVG document order = paint order ===== -->
+  <text x="48" y="92" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">SVG DOCUMENT ORDER</text>
+
+  <!-- paint-order arrow (bottom = first painted) -->
+  <line x1="40" y1="320" x2="40" y2="118" stroke="#545454" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="22" y="220" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454" transform="rotate(-90 22 220)">APPEND ORDER = PAINT ORDER (LATER PAINTS OVER)</text>
+
+  <!-- five stacked layers, bottom→top -->
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#2a1a0e">
+    <rect x="60" y="296" width="230" height="32" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="74" y="316">background</text>
+    <rect x="60" y="260" width="230" height="32" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="74" y="280">gridlines</text>
+    <rect x="60" y="224" width="230" height="32" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="74" y="244">ci-band</text>
+    <rect x="60" y="188" width="230" height="32" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="74" y="208">estimate-line</text>
+    <!-- TOP layer = RED accent -->
+    <rect x="60" y="152" width="230" height="32" fill="#C8102E"/>
+    <text x="74" y="172" fill="#FFFFFF">annotation</text>
+  </g>
+  <text x="296" y="172" font-family="Inter, sans-serif" font-size="9.5" fill="#C8102E">single accent, painted last</text>
+  <text x="296" y="244" font-family="Inter, sans-serif" font-size="9.5" fill="#545454">band BEFORE line →</text>
+  <text x="296" y="256" font-family="Inter, sans-serif" font-size="9.5" fill="#545454">band paints behind, by construction</text>
+
+  <!-- equivalence arrow -->
+  <line x1="356" y1="240" x2="408" y2="240" stroke="#2a1a0e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="382" y="232" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454" text-anchor="middle">IMPORT</text>
+
+  <!-- ===== RIGHT: Illustrator Layers panel ===== -->
+  <text x="424" y="92" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">ILLUSTRATOR LAYERS PANEL</text>
+  <rect x="424" y="104" width="244" height="234" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.4"/>
+  <!-- panel header -->
+  <rect x="424" y="104" width="244" height="24" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.4"/>
+  <text x="436" y="120" font-family="Inter, sans-serif" font-size="10" fill="#2a1a0e">Layers</text>
+
+  <!-- panel rows, top→bottom mirrors paint order top→bottom -->
+  <g font-family="Inter, sans-serif" font-size="11.5" fill="#2a1a0e">
+    <!-- annotation row = red eye -->
+    <line x1="424" y1="156" x2="668" y2="156" stroke="#D4D4D4"/>
+    <circle cx="442" cy="142" r="4" fill="none" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="456" y="146">annotation</text>
+    <text x="640" y="146" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8102E" text-anchor="end">accent</text>
+
+    <line x1="424" y1="188" x2="668" y2="188" stroke="#D4D4D4"/>
+    <circle cx="442" cy="174" r="4" fill="none" stroke="#545454"/>
+    <text x="456" y="178">estimate-line</text>
+
+    <line x1="424" y1="220" x2="668" y2="220" stroke="#D4D4D4"/>
+    <circle cx="442" cy="206" r="4" fill="none" stroke="#545454"/>
+    <text x="456" y="210">ci-band</text>
+
+    <line x1="424" y1="252" x2="668" y2="252" stroke="#D4D4D4"/>
+    <circle cx="442" cy="238" r="4" fill="none" stroke="#545454"/>
+    <text x="456" y="242">gridlines</text>
+
+    <circle cx="442" cy="270" r="4" fill="none" stroke="#545454"/>
+    <text x="456" y="274">background</text>
+  </g>
+  <text x="436" y="312" font-family="Inter, sans-serif" font-size="10" fill="#545454">Human-readable names survive the round trip —</text>
+  <text x="436" y="326" font-family="Inter, sans-serif" font-size="10" fill="#545454">no anonymous g, g-2, g-3.</text>
+
+  <!-- footnote / legend -->
+  <text x="32" y="362" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">This is the Chapter 7 resolution executed: the rendering structure SVG requires and the editorial structure a</text>
+  <text x="32" y="378" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">designer needs are the same stack. Count nine (band occludes line) is fixed by construction, not by accident.</text>
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <rect x="32" y="392" width="12" height="12" fill="#C8102E"/>
+    <text x="50" y="402">RED = THE ANNOTATION / ACCENT LAYER (PAINTED LAST, USED ONCE)</text>
+  </g>
+</svg>

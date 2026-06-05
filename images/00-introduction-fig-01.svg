@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"><rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="32" y="36" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#2a1a0e">The Labor Split: the layer the machine can't reach</text>
+<text x="32" y="54" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">DESIGN INTELLIGENCE STAYS HUMAN — EXECUTION IS DELEGATED</text>
+
+<!-- LEFT column: human design intelligence (red accent header) -->
+<rect x="32" y="72" width="300" height="240" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+<text x="48" y="98" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#C8102E">HUMAN — DESIGN INTELLIGENCE</text>
+<line x1="48" y1="108" x2="316" y2="108" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="134" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">1 · Variable selection</text>
+<text x="48" y="166" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">2 · Visual encoding choice</text>
+<text x="48" y="198" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">3 · Hierarchy</text>
+<text x="48" y="230" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">4 · Annotation placement</text>
+<text x="48" y="262" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">5 · Layout</text>
+<text x="48" y="296" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">WHAT IT IS FOR · WHO READS IT · THE TASK</text>
+
+<!-- RIGHT column: machine execution -->
+<rect x="368" y="72" width="300" height="240" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="384" y="98" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">MACHINE — DELEGATED EXECUTION</text>
+<line x1="384" y1="108" x2="652" y2="108" stroke="#D4D4D4" stroke-width="1"/>
+<text x="384" y="146" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">Syntactically valid SVG markup</text>
+<text x="384" y="178" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">Plausible structure, clean output</text>
+<text x="384" y="210" font-family="'Inter', Helvetica, sans-serif" font-size="13" fill="#2a1a0e">Labels where labels go</text>
+<text x="384" y="248" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">GENERATES AGAINST A VOID</text>
+<text x="384" y="264" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">AND FILLS IT WITH PLAUSIBILITY</text>
+
+<!-- arrows down to deliverable -->
+<line x1="182" y1="312" x2="182" y2="344" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="518" y1="312" x2="518" y2="344" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- deliverable + disclosure band -->
+<rect x="32" y="350" width="636" height="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+<text x="48" y="372" font-family="'EB Garamond', Georgia, serif" font-size="15" fill="#2a1a0e">A defensible infographic — and an AI Use Disclosure naming the human judgments.</text>
+<text x="48" y="390" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">THE DISCLOSURE IS THE FALSIFICATION INSTRUMENT — NAME TWO, OR YOU SKIPPED THE LAYER</text>
+</svg>

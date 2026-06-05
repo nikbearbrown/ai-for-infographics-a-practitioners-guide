@@ -1,0 +1,18 @@
+date,book,chapter_slug,word_count,sources_section,wayback_figure,fact_check
+2026-05-31,ai-for-infographics,00-introduction,1989,no,—,clean
+2026-05-31,ai-for-infographics,01-the-infographic-that-lied-while-telling-the-truth,2901,yes,William Playfair,confirmed; illustrative data flagged
+2026-05-31,ai-for-infographics,02-how-the-visual-system-processes-information,3111,yes,Jacques Bertin,confirmed; Miller [Contested] ok
+2026-05-31,ai-for-infographics,03-brutalism-as-a-design-commitment,2923,yes,Alison Smithson,coinage softened; ML numbers placeholder
+2026-05-31,ai-for-infographics,04-svg-as-a-design-medium,2729,yes,Tim Berners-Lee,confirmed
+2026-05-31,ai-for-infographics,05-the-brutalist-design-system,2911,yes,Ellen Lupton,fixed contrast + 2 L* values
+2026-05-31,ai-for-infographics,06-marks-channels-and-the-grammar-of-infographics,2851,yes,Jacques Bertin,confirmed
+2026-05-31,ai-for-infographics,07-visual-hierarchy-and-the-painters-algorithm,2703,yes,Ivan Sutherland,confirmed (painter's algorithm / doc order)
+2026-05-31,ai-for-infographics,08-color-systems-and-typography-for-infographics,3038,yes,Cynthia Brewer,confirmed; WCAG ratios ok
+2026-05-31,ai-for-infographics,09-annotation-when-it-earns-its-place,2850,yes,Richard Saul Wurman,confirmed
+2026-05-31,ai-for-infographics,10-layout-composition-and-the-cajal-specification-system,2852,yes,Santiago Ramon y Cajal,confirmed (Nobel 1906)
+2026-05-31,ai-for-infographics,11-the-brutalist-system-claude-design-project,2828,yes,Grace Hopper,moth anecdote tightened
+2026-05-31,ai-for-infographics,12-audit-what-exists-before-you-touch-anything,3548,yes,Ida B. Wells,confirmed
+2026-05-31,ai-for-infographics,13-generate-claude-code-as-a-structured-executor,3369,yes,Mike Bostock,confirmed (D3 2011); tool aging [Medium]
+2026-05-31,ai-for-infographics,14-verify-and-handoff-from-svg-to-production-asset,3417,yes,Susan Kare,confirmed; Illustrator quirks [Medium]
+2026-05-31,ai-for-infographics,15-the-complete-pipeline-one-brief-every-decision,3234,yes,Otto & Marie Neurath,confirmed (Isotype/transformer)
+2026-05-31,ai-for-infographics,99-back-matter,554,no,—,bio confirmed (EIN exact)

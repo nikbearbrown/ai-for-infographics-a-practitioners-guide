@@ -1,0 +1,75 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The Audit phase is a gate, not a courtesy</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">Four conditions feed one barrier. One unmet condition keeps it CLOSED.</text>
+
+  <!-- ===== INPUT CONDITIONS (left) ===== -->
+  <text x="32" y="92" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">CONDITIONS</text>
+
+  <!-- condition panels -->
+  <g font-family="Inter, sans-serif" font-size="11.5" fill="#2a1a0e">
+    <rect x="32" y="104" width="208" height="40" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="44" y="123">Intent Layer populated</text>
+    <text x="44" y="138" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">Q3 BRIEF APPROVED</text>
+
+    <rect x="32" y="152" width="208" height="40" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="44" y="171">Asset inventory complete</text>
+    <text x="44" y="186" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">SOURCE / DERIVED / UNKNOWN</text>
+
+    <rect x="32" y="200" width="208" height="40" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="44" y="219">Convention inventory done</text>
+    <text x="44" y="234" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">NAMING / COLOR / FONT / GROUP</text>
+
+    <rect x="32" y="248" width="208" height="40" fill="#F5F5F5" stroke="#C8860E" stroke-width="1.5"/>
+    <text x="44" y="267">Gap map built</text>
+    <text x="44" y="282" font-family="JetBrains Mono, monospace" font-size="9" fill="#C8860E">DESIGN.md INCOMPLETE — BLOCKS</text>
+  </g>
+
+  <!-- arrows into gate -->
+  <g stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)" fill="none">
+    <path d="M240 124 H 350"/>
+    <path d="M240 172 H 350"/>
+    <path d="M240 220 H 350"/>
+    <path d="M240 268 H 350"/>
+  </g>
+
+  <!-- ===== THE GATE (center) — RED ACCENT ===== -->
+  <rect x="356" y="100" width="74" height="192" fill="#C8102E"/>
+  <text x="393" y="200" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 393 200)">GATE: CLOSED</text>
+  <!-- gate cross-bars to read as a barrier -->
+  <line x1="356" y1="148" x2="430" y2="148" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  <line x1="356" y1="244" x2="430" y2="244" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+
+  <text x="393" y="312" font-family="JetBrains Mono, monospace" font-size="9" fill="#C8102E" text-anchor="middle">ONE BLOCKING GAP</text>
+
+  <!-- blocked arrow to Generate -->
+  <line x1="430" y1="196" x2="492" y2="196" stroke="#D4D4D4" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <line x1="448" y1="178" x2="468" y2="214" stroke="#C8102E" stroke-width="2"/>
+  <line x1="468" y1="178" x2="448" y2="214" stroke="#C8102E" stroke-width="2"/>
+
+  <!-- ===== DOWNSTREAM (blocked Generate) ===== -->
+  <g>
+    <rect x="496" y="140" width="172" height="112" fill="#FFFFFF" stroke="#D4D4D4" stroke-dasharray="4 4"/>
+    <text x="582" y="178" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#D4D4D4" text-anchor="middle">GENERATE</text>
+    <text x="582" y="200" font-family="Inter, sans-serif" font-size="11" fill="#D4D4D4" text-anchor="middle">Verify · Handoff</text>
+    <text x="582" y="226" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454" text-anchor="middle">UNREACHABLE</text>
+    <text x="582" y="240" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454" text-anchor="middle">UNTIL GATE OPENS</text>
+  </g>
+
+  <!-- footnote -->
+  <text x="32" y="346" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">The gate is binary: open only when all four conditions hold. You cannot map a gap to a</text>
+  <text x="32" y="362" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">specification that does not exist — so the truncated DESIGN.md holds the barrier shut.</text>
+
+  <!-- legend -->
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <rect x="32" y="386" width="12" height="12" fill="#C8102E"/>
+    <text x="50" y="396">CLOSED GATE (THE BARRIER)</text>
+    <rect x="262" y="386" width="12" height="12" fill="#F5F5F5" stroke="#C8860E" stroke-width="1.5"/>
+    <text x="280" y="396">OCHRE = STRUCTURAL BLOCKER, NOT DATA</text>
+  </g>
+</svg>

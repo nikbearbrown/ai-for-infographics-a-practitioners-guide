@@ -1,0 +1,34 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">Typography is hierarchy, not style</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">Three families, each assigned a role &#8212; the role determines what is set in what</text>
+
+  <!-- Role column header -->
+  <line x1="32" y1="82" x2="668" y2="82" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Row: display (RED accent — the single editorial headline) -->
+  <text x="32" y="116" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">DISPLAY / TITLE</text>
+  <text x="200" y="124" font-family="EB Garamond, Georgia, serif" font-size="24" fill="#C8102E">The gap widens after 2008</text>
+  <text x="200" y="142" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">EB GARAMOND &#183; SERIF &#183; THE EDITORIAL VOICE</text>
+  <line x1="32" y1="156" x2="668" y2="156" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Row: body -->
+  <text x="32" y="188" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">BODY / LABEL</text>
+  <text x="200" y="192" font-family="Inter, sans-serif" font-size="14" fill="#2a1a0e">Median household income, two groups</text>
+  <text x="200" y="210" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">INTER &#183; SANS &#183; THE WORKADAY READING LAYER</text>
+  <line x1="32" y1="224" x2="668" y2="224" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Row: axis digits (mono) -->
+  <text x="32" y="256" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">AXIS DIGITS</text>
+  <text x="200" y="262" font-family="JetBrains Mono, monospace" font-size="14" fill="#545454">1,204&#160;&#160;&#160;&#160;987&#160;&#160;&#160;&#160;65</text>
+  <text x="200" y="280" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">JETBRAINS MONO &#183; DIGITS ALIGN BY PLACE VALUE</text>
+  <line x1="32" y1="294" x2="668" y2="294" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Row: caption / source (the luminance step down) -->
+  <text x="32" y="326" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">CAPTION / SOURCE</text>
+  <text x="200" y="330" font-family="Inter, sans-serif" font-size="11" fill="#545454">Not inflation-adjusted; excludes zero-income households.</text>
+  <text x="200" y="348" font-family="Inter, sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: ONE LUMINANCE STEP DOWN = "APPARATUS, NOT CLAIM"</text>
+
+  <text x="32" y="392" font-family="Inter, sans-serif" font-size="11" fill="#545454">The font choice is a perceptual decision wearing the costume of a style decision.</text>
+</svg>

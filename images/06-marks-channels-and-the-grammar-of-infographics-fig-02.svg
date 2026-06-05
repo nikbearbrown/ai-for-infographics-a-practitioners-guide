@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">Same data, same task: rank six energy sources</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">The chart type is an output of the relationship, never an input to it</text>
+
+  <!-- LEFT panel: form-first (pie on angle/area) -->
+  <rect x="32" y="80" width="300" height="290" fill="#F5F5F5"/>
+  <text x="48" y="104" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">FORM-FIRST &#8212; "MAKE A PIE"</text>
+  <text x="48" y="124" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">Channel: angle + area (rungs 4&#8211;5)</text>
+
+  <!-- Pie: gray wedges, ranking hard to read -->
+  <g transform="translate(182 230)">
+    <path d="M0 0 L0 -78 A78 78 0 0 1 67.5 -39 Z" fill="#545454"/>
+    <path d="M0 0 L67.5 -39 A78 78 0 0 1 67.5 39 Z" fill="#2a1a0e"/>
+    <path d="M0 0 L67.5 39 A78 78 0 0 1 0 78 Z" fill="#D4D4D4"/>
+    <path d="M0 0 L0 78 A78 78 0 0 1 -67.5 39 Z" fill="#545454"/>
+    <path d="M0 0 L-67.5 39 A78 78 0 0 1 -73 -27 Z" fill="#2a1a0e"/>
+    <path d="M0 0 L-73 -27 A78 78 0 0 1 0 -78 Z" fill="#D4D4D4"/>
+  </g>
+  <text x="182" y="350" font-family="Inter, sans-serif" font-size="11" fill="#545454" text-anchor="middle">Which wedge is 3rd-largest? Hard.</text>
+
+  <!-- arrow between -->
+  <line x1="340" y1="225" x2="372" y2="225" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- RIGHT panel: relationship-first (ordered bars on position) -->
+  <rect x="382" y="80" width="286" height="290" fill="#F5F5F5"/>
+  <text x="398" y="104" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">RELATIONSHIP-FIRST &#8212; "RANK THEM"</text>
+  <text x="398" y="124" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">Channel: position on a common scale (rung 1)</text>
+
+  <!-- ordered horizontal bars, longest on top; one RED accent = the 3rd-largest answer -->
+  <g font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">
+    <rect x="448" y="150" width="200" height="18" fill="#2a1a0e"/><text x="398" y="163">GAS</text>
+    <rect x="448" y="176" width="158" height="18" fill="#2a1a0e"/><text x="398" y="189">COAL</text>
+    <rect x="448" y="202" width="120" height="18" fill="#C8102E"/><text x="398" y="215">HYDRO</text>
+    <rect x="448" y="228" width="88" height="18" fill="#2a1a0e"/><text x="398" y="241">WIND</text>
+    <rect x="448" y="254" width="60" height="18" fill="#2a1a0e"/><text x="398" y="267">SOLAR</text>
+    <rect x="448" y="280" width="34" height="18" fill="#2a1a0e"/><text x="398" y="293">OTHER</text>
+  </g>
+  <line x1="448" y1="146" x2="448" y2="302" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="398" y="335" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">3rd-largest (red) read instantly &#8212; by length.</text>
+
+  <text x="32" y="400" font-family="Inter, sans-serif" font-size="11" fill="#545454">Name the relationship out loud before naming a chart, and the channel choice narrows itself.</text>
+</svg>

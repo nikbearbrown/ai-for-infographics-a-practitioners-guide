@@ -1,0 +1,13 @@
+{
+  "name": "ai-for-infographics-a-practitioners-guide",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI for Infographics a Practitioners Guide",
+  "scripts": {
+    "svg-to-png": "node SCRIPTS/svg-to-png.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "glob": "^10.0.0"
+  }
+}

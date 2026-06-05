@@ -1,0 +1,87 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The production package</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">"Done" is not a pretty PNG. Every artifact traces to a decision; every decision traces to the brief.</text>
+
+  <!-- ===== ROOT: the brief ===== -->
+  <rect x="32" y="92" width="150" height="56" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.6"/>
+  <text x="48" y="116" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#2a1a0e">BRIEF.md</text>
+  <text x="48" y="134" font-family="Inter, sans-serif" font-size="10" fill="#545454">ask · audience · medium</text>
+
+  <!-- spine line from brief -->
+  <line x1="182" y1="120" x2="232" y2="120" stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- vertical trunk -->
+  <line x1="248" y1="96" x2="248" y2="360" stroke="#C8860E" stroke-width="1.6"/>
+  <text x="256" y="92" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8860E">TRACEABILITY</text>
+
+  <!-- ===== nodes, each on a branch off the trunk ===== -->
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#2a1a0e">
+    <!-- scope.md -->
+    <line x1="248" y1="116" x2="288" y2="116" stroke="#C8860E" stroke-width="1.2"/>
+    <rect x="288" y="100" width="148" height="32" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="300" y="120">scope.md</text>
+    <text x="436" y="120" font-family="Inter, sans-serif" font-size="9" fill="#545454" text-anchor="end" dx="-6">S/C/O/P/E + exclusions</text>
+
+    <!-- DESIGN / CLAUDE / PROJECT -->
+    <line x1="248" y1="150" x2="288" y2="150" stroke="#C8860E" stroke-width="1.2"/>
+    <rect x="288" y="138" width="148" height="24" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="300" y="155">DESIGN.md</text>
+    <line x1="248" y1="178" x2="288" y2="178" stroke="#C8860E" stroke-width="1.2"/>
+    <rect x="288" y="166" width="148" height="24" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="300" y="183">CLAUDE.md</text>
+    <line x1="248" y1="206" x2="288" y2="206" stroke="#C8860E" stroke-width="1.2"/>
+    <rect x="288" y="194" width="148" height="24" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="300" y="211">PROJECT.md</text>
+    <text x="446" y="178" font-family="Inter, sans-serif" font-size="9" fill="#545454">governing files</text>
+
+    <!-- svg -> ai -> png chain (source/derived) -->
+    <line x1="248" y1="240" x2="288" y2="240" stroke="#C8860E" stroke-width="1.2"/>
+    <rect x="288" y="228" width="148" height="24" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.3"/>
+    <text x="300" y="245">disparity.svg</text>
+    <text x="446" y="245" font-family="Inter, sans-serif" font-size="9" fill="#545454">SOURCE · metadata</text>
+
+    <line x1="362" y1="252" x2="362" y2="264" stroke="#545454" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <rect x="288" y="266" width="148" height="24" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.3"/>
+    <text x="300" y="283">disparity.ai</text>
+    <text x="446" y="283" font-family="Inter, sans-serif" font-size="9" fill="#545454">corrected · named</text>
+
+    <line x1="362" y1="290" x2="362" y2="302" stroke="#545454" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <rect x="288" y="304" width="148" height="24" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="300" y="321" fill="#545454">disparity.png</text>
+    <text x="446" y="321" font-family="Inter, sans-serif" font-size="9" fill="#545454">DERIVED · 300 DPI</text>
+  </g>
+
+  <!-- ===== evidence column (right) : DEFENSE + DISCLOSURE ===== -->
+  <text x="540" y="92" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">EVIDENCE OF AUTHORSHIP</text>
+  <rect x="540" y="100" width="128" height="58" fill="#FFFFFF" stroke="#2a1a0e"/>
+  <text x="554" y="124" font-family="JetBrains Mono, monospace" font-size="11" fill="#2a1a0e">DEFENSE.md</text>
+  <text x="554" y="142" font-family="Inter, sans-serif" font-size="9.5" fill="#545454">a sentence per</text>
+  <text x="554" y="154" font-family="Inter, sans-serif" font-size="9.5" fill="#545454">encoding decision</text>
+
+  <!-- DISCLOSURE.md = RED ACCENT -->
+  <rect x="540" y="172" width="128" height="72" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.8"/>
+  <text x="554" y="196" font-family="JetBrains Mono, monospace" font-size="11" fill="#C8102E">DISCLOSURE.md</text>
+  <text x="554" y="214" font-family="Inter, sans-serif" font-size="9.5" fill="#2a1a0e">three human-judgment</text>
+  <text x="554" y="226" font-family="Inter, sans-serif" font-size="9.5" fill="#2a1a0e">decisions, three phases —</text>
+  <text x="554" y="238" font-family="Inter, sans-serif" font-size="9.5" fill="#2a1a0e">proof the human owned them</text>
+
+  <!-- link from package to evidence -->
+  <line x1="436" y1="184" x2="536" y2="172" stroke="#C8860E" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="436" y1="200" x2="536" y2="208" stroke="#C8860E" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- footnote / legend -->
+  <text x="32" y="358" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">The artifact alone no longer proves the human made the decisions — a clean SVG could come from a careful</text>
+  <text x="32" y="374" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">designer or a lucky bare prompt. The package is the infographic's datasheet: provenance made explicit.</text>
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <rect x="32" y="390" width="12" height="12" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="50" y="400">RED = DISCLOSURE.md (THE PROOF OF AUTHORSHIP)</text>
+    <line x1="330" y1="396" x2="356" y2="396" stroke="#C8860E" stroke-width="1.6"/>
+    <text x="362" y="400">OCHRE = TRACEABILITY STRUCTURE, NOT DATA</text>
+  </g>
+</svg>

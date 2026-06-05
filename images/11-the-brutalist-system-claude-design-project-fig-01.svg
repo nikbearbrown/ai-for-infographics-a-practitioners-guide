@@ -1,0 +1,53 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The phase gate: no generation before the design intelligence exists</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">The tool builds the implementation; the human owns the design intelligence</text>
+
+  <!-- Pipeline phases -->
+  <g font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">
+    <rect x="32" y="96" width="110" height="46" fill="#2a1a0e"/>
+    <text x="87" y="124" text-anchor="middle">Audit</text>
+    <rect x="156" y="96" width="110" height="46" fill="#2a1a0e"/>
+    <text x="211" y="124" text-anchor="middle">Schema</text>
+  </g>
+
+  <!-- THE GATE (RED accent — human-judgment gate) -->
+  <rect x="288" y="84" width="60" height="70" fill="#FFFFFF" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="318" y="106" font-family="JetBrains Mono, monospace" font-size="10" fill="#C8102E" text-anchor="middle">GATE</text>
+  <!-- padlock glyph -->
+  <rect x="306" y="116" width="24" height="20" fill="#C8102E"/>
+  <path d="M310 116 v-5 a8 8 0 0 1 16 0 v5" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="266" y1="119" x2="286" y2="119" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="350" y1="119" x2="368" y2="119" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <g font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">
+    <rect x="372" y="96" width="110" height="46" fill="#2a1a0e"/>
+    <text x="427" y="124" text-anchor="middle">Generate</text>
+    <rect x="496" y="96" width="80" height="46" fill="#2a1a0e"/>
+    <text x="536" y="124" text-anchor="middle">Verify</text>
+    <rect x="588" y="96" width="80" height="46" fill="#2a1a0e"/>
+    <text x="628" y="124" text-anchor="middle">Handoff</text>
+  </g>
+  <line x1="482" y1="119" x2="494" y2="119" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="576" y1="119" x2="586" y2="119" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="318" y="172" font-family="Inter, sans-serif" font-size="10" fill="#C8102E" text-anchor="middle">opens only when both PROJECT.md layers are populated</text>
+
+  <!-- Labor band: HUMAN -->
+  <rect x="32" y="200" width="636" height="80" fill="#F5F5F5"/>
+  <text x="48" y="222" font-family="JetBrains Mono, monospace" font-size="10" fill="#2a1a0e">HUMAN &#8212; DESIGN INTELLIGENCE (INTENT LAYER, NEVER OVERWRITTEN)</text>
+  <text x="48" y="246" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">writes the claim &#183; chooses the encoding &#183; sets the exclusion list &#183; makes the final accept/reject call</text>
+  <text x="48" y="266" font-family="Inter, sans-serif" font-size="10" fill="#545454">a correctly governed tool refuses at the gate, naming which layer is empty &#8212; refusal is a feature</text>
+
+  <!-- Labor band: TOOL -->
+  <rect x="32" y="290" width="636" height="74" fill="#FFFFFF" stroke="#D4D4D4"/>
+  <text x="48" y="312" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">TOOL &#8212; IMPLEMENTATION (SCHEMA LAYER, AI-MAINTAINED)</text>
+  <text x="48" y="336" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">audits assets &#183; populates the schema &#183; generates SVG conforming to CLAUDE.md + DESIGN.md &#183; runs checks</text>
+  <text x="48" y="356" font-family="Inter, sans-serif" font-size="10" fill="#545454">builds faithfully against the specification &#8212; and faithfully reproduces a wrong one if the human supplied it</text>
+
+  <text x="32" y="396" font-family="Inter, sans-serif" font-size="11" fill="#545454">A guideline you can ignore under deadline; a gate you cannot. The week-long loop was a missing-constitution problem.</text>
+</svg>

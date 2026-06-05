@@ -1,0 +1,77 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"><rect width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="36" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#2a1a0e">The seven-token spec board</text>
+<text x="32" y="54" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">THE SYSTEM AS ITS OWN LEGEND — THIS FIGURE OBEYS THE TOKENS IT SHOWS</text>
+
+<!-- SEVEN TOKEN SWATCHES -->
+<text x="32" y="80" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">COLOR TOKENS</text>
+
+<rect x="32" y="90" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="70" y="103" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#FFFFFF</text>
+<text x="70" y="115" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">white · canvas</text>
+
+<rect x="32" y="124" width="28" height="28" fill="#2a1a0e"/>
+<text x="70" y="137" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#2a1a0e</text>
+<text x="70" y="149" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">ink · text, axes, lines</text>
+
+<rect x="32" y="158" width="28" height="28" fill="#C8102E"/>
+<text x="70" y="171" font-family="'JetBrains Mono', monospace" font-size="10" fill="#C8102E">#C8102E</text>
+<text x="70" y="183" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#C8102E">red · THE ONE ACCENT</text>
+
+<rect x="32" y="192" width="28" height="28" fill="#545454"/>
+<text x="70" y="205" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#545454</text>
+<text x="70" y="217" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">grey · secondary text</text>
+
+<rect x="32" y="226" width="28" height="28" fill="#D4D4D4"/>
+<text x="70" y="239" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#D4D4D4</text>
+<text x="70" y="251" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">light grey · gridlines</text>
+
+<rect x="32" y="260" width="28" height="28" fill="#C8860E"/>
+<text x="70" y="273" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#C8860E</text>
+<text x="70" y="285" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">ochre · NEVER DATA</text>
+
+<rect x="32" y="294" width="28" height="28" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="70" y="307" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2a1a0e">#F5F5F5</text>
+<text x="70" y="319" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">panel · plot region</text>
+
+<!-- callouts on red and ochre -->
+<rect x="190" y="158" width="92" height="28" fill="none" stroke="#C8102E" stroke-width="2"/>
+<text x="196" y="176" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#C8102E">SINGLE ACCENT</text>
+<rect x="190" y="260" width="92" height="28" fill="none" stroke="#C8860E" stroke-width="2"/>
+<text x="196" y="278" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#C8860E">NON-DATA ONLY</text>
+
+<!-- divider -->
+<line x1="320" y1="84" x2="320" y2="324" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- TYPE STACK -->
+<text x="344" y="80" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">TYPE STACK — ROLE, NOT TASTE</text>
+<rect x="344" y="92" width="324" height="44" fill="#F5F5F5"/>
+<text x="356" y="112" font-family="'EB Garamond', Georgia, serif" font-size="16" fill="#2a1a0e">EB Garamond — display titles</text>
+<text x="356" y="130" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">SERIF · 14PX · DISPLAY ONLY</text>
+
+<rect x="344" y="142" width="324" height="44" fill="#F5F5F5"/>
+<text x="356" y="162" font-family="'Inter', Helvetica, sans-serif" font-size="14" fill="#2a1a0e">Inter — labels, captions, annotation</text>
+<text x="356" y="180" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">SANS · 11–12PX · THE WORKHORSE</text>
+
+<rect x="344" y="192" width="324" height="44" fill="#F5F5F5"/>
+<text x="356" y="212" font-family="'JetBrains Mono', monospace" font-size="13" fill="#2a1a0e">JetBrains Mono — 0123456789</text>
+<text x="356" y="228" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">MONO · AXIS TICKS ONLY</text>
+
+<!-- 8PX GRID -->
+<text x="344" y="262" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">8PX SPACING GRID · 32PX MARGINS</text>
+<g>
+<line x1="344" y1="276" x2="668" y2="276" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="352" y1="270" x2="352" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="368" y1="270" x2="368" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="384" y1="270" x2="384" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="400" y1="270" x2="400" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="416" y1="270" x2="416" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="432" y1="270" x2="432" y2="316" stroke="#D4D4D4" stroke-width="0.75"/>
+<rect x="352" y="288" width="64" height="16" fill="#2a1a0e"/>
+<text x="424" y="301" font-family="'Inter', Helvetica, sans-serif" font-size="10" fill="#545454">marks land on multiples of 8</text>
+</g>
+
+<!-- footer rule (ochre = non-data emphasis) -->
+<line x1="32" y1="344" x2="668" y2="344" stroke="#C8860E" stroke-width="2"/>
+<text x="32" y="368" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">No shadows, no gradients, no rounded corners. Every mark does a job.</text>
+<text x="32" y="386" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1px" fill="#545454">THE RULE-RULE ABOVE IS OCHRE — STRUCTURAL EMPHASIS, NOT DATA</text>
+</svg>

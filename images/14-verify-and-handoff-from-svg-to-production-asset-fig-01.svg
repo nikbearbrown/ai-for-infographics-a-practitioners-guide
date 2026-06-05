@@ -1,0 +1,75 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">Browser-correct is not production-editable</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">The round trip through a vector editor is the step most pipelines skip — and the step that closes the gap.</text>
+
+  <!-- ===== LEFT: browser-correct SVG ===== -->
+  <rect x="32" y="100" width="184" height="200" fill="#F5F5F5" stroke="#D4D4D4"/>
+  <text x="46" y="122" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">BROWSER-CORRECT SVG</text>
+  <text x="46" y="138" font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">"it renders" — looks clean</text>
+  <!-- mini render -->
+  <rect x="46" y="150" width="156" height="62" fill="#FFFFFF" stroke="#D4D4D4"/>
+  <polyline points="56,196 86,180 116,170 146,166 186,164" fill="none" stroke="#2a1a0e" stroke-width="1.6"/>
+  <text x="124" y="166" font-family="Inter, sans-serif" font-size="8" fill="#545454">peak</text>
+  <!-- lurking defects -->
+  <text x="46" y="234" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">LURKING, INVISIBLE HERE:</text>
+  <g font-family="Inter, sans-serif" font-size="10" fill="#545454">
+    <text x="46" y="250">· text-anchor drift</text>
+    <text x="46" y="266">· clipping mask fights editor</text>
+    <text x="46" y="282">· groups buried in unnamed g</text>
+  </g>
+
+  <!-- arrow into bridge -->
+  <line x1="216" y1="200" x2="252" y2="200" stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- ===== CENTER: the round trip (the skipped bridge) — ochre structural ===== -->
+  <rect x="256" y="100" width="184" height="200" fill="#FFFFFF" stroke="#C8860E" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="270" y="122" font-family="JetBrains Mono, monospace" font-size="10" fill="#C8860E">THE STEP PIPELINES SKIP</text>
+  <text x="270" y="138" font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">Illustrator / Inkscape round trip</text>
+  <g font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">
+    <text x="270" y="166">1 · Open (not Place)</text>
+    <text x="270" y="188">2 · Release clipping masks</text>
+    <text x="270" y="210">3 · Reconcile named groups</text>
+    <text x="270" y="232">4 · Correct text-anchor drift</text>
+    <text x="270" y="254">5 · Check tspan whitespace</text>
+    <text x="270" y="276">6 · Save as .ai</text>
+  </g>
+
+  <!-- arrow into result -->
+  <line x1="440" y1="200" x2="476" y2="200" stroke="#2a1a0e" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- ===== RIGHT: production-editable .ai (RED ACCENT) ===== -->
+  <rect x="480" y="100" width="188" height="200" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.8"/>
+  <text x="494" y="122" font-family="JetBrains Mono, monospace" font-size="10" fill="#C8102E">PRODUCTION-EDITABLE .ai</text>
+  <text x="494" y="138" font-family="Inter, sans-serif" font-size="10.5" fill="#2a1a0e">a human can still edit it</text>
+  <!-- editable named-layer stack (red accent) -->
+  <g font-family="JetBrains Mono, monospace" font-size="10" fill="#2a1a0e">
+    <rect x="494" y="150" width="160" height="26" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.4"/>
+    <circle cx="508" cy="163" r="4" fill="none" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="522" y="167">annotation</text>
+    <rect x="494" y="180" width="160" height="26" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.4"/>
+    <circle cx="508" cy="193" r="4" fill="none" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="522" y="197">estimate-line</text>
+    <rect x="494" y="210" width="160" height="26" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.4"/>
+    <circle cx="508" cy="223" r="4" fill="none" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="522" y="227">ci-band</text>
+  </g>
+  <text x="494" y="258" font-family="Inter, sans-serif" font-size="10" fill="#545454">Named · clip-free · aligned.</text>
+  <text x="494" y="274" font-family="Inter, sans-serif" font-size="10" fill="#545454">Editor finds "annotation" in</text>
+  <text x="494" y="288" font-family="Inter, sans-serif" font-size="10" fill="#545454">five seconds.</text>
+
+  <!-- footnote / legend -->
+  <text x="32" y="334" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">A pipeline that stops at "it renders" ships the editor a file they cannot edit. Verify reads the spec back out of the</text>
+  <text x="32" y="350" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">artifact; Handoff proves a human can still change what the machine produced.</text>
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <rect x="32" y="368" width="12" height="12" fill="none" stroke="#C8102E" stroke-width="1.6"/>
+    <text x="50" y="378">RED = THE EDITABLE-LAYERS RESULT (THE PRODUCTION ASSET)</text>
+    <rect x="380" y="368" width="12" height="12" fill="none" stroke="#C8860E" stroke-width="1.6" stroke-dasharray="3 2"/>
+    <text x="398" y="378">OCHRE = THE SKIPPED-STEP BRIDGE (STRUCTURE, NOT DATA)</text>
+  </g>
+</svg>

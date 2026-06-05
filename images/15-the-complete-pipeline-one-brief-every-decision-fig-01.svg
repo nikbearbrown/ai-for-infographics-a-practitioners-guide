@@ -1,0 +1,111 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="32" y="38" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">The complete pipeline, in one view</text>
+  <text x="32" y="58" font-family="Inter, sans-serif" font-size="11" fill="#545454">The agent runs the top lane; the human-judgment spine runs beneath. The right column is irreducible.</text>
+
+  <!-- phase column headers -->
+  <g font-family="EB Garamond, Georgia, serif" font-size="13" fill="#2a1a0e" text-anchor="middle">
+    <text x="100" y="90">Design</text>
+    <text x="224" y="90">Audit</text>
+    <text x="348" y="90">Generate</text>
+    <text x="472" y="90">Verify</text>
+    <text x="596" y="90">Handoff</text>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="8" fill="#545454" text-anchor="middle">
+    <text x="100" y="102">CH 1–10</text>
+    <text x="224" y="102">CH 12</text>
+    <text x="348" y="102">CH 13</text>
+    <text x="472" y="102">CH 14</text>
+    <text x="596" y="102">CH 14</text>
+  </g>
+
+  <!-- ===== AGENT LANE (top) ===== -->
+  <text x="32" y="130" font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">AGENT EXECUTION</text>
+  <g font-family="Inter, sans-serif" font-size="9.5" fill="#2a1a0e" text-anchor="middle">
+    <rect x="48" y="138" width="104" height="48" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="100" y="166">—</text>
+    <rect x="172" y="138" width="104" height="48" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="224" y="160">inventory files,</text>
+    <text x="224" y="173">extract hex</text>
+    <rect x="296" y="138" width="104" height="48" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="348" y="160">render spec into</text>
+    <text x="348" y="173">D3 / SVG</text>
+    <rect x="420" y="138" width="104" height="48" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="472" y="160">extract structure,</text>
+    <text x="472" y="173">measure contrast</text>
+    <rect x="544" y="138" width="104" height="48" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="596" y="160">rasterize 300 DPI,</text>
+    <text x="596" y="173">release clips</text>
+  </g>
+  <!-- flow arrows along agent lane -->
+  <g stroke="#545454" stroke-width="1.2" marker-end="url(#arrow)" fill="none">
+    <path d="M152 162 H 168"/>
+    <path d="M276 162 H 292"/>
+    <path d="M400 162 H 416"/>
+    <path d="M524 162 H 540"/>
+  </g>
+
+  <!-- connectors down to spine -->
+  <g stroke="#D4D4D4" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="100" y1="186" x2="100" y2="244"/>
+    <line x1="224" y1="186" x2="224" y2="244"/>
+    <line x1="348" y1="186" x2="348" y2="244"/>
+    <line x1="472" y1="186" x2="472" y2="244"/>
+    <line x1="596" y1="186" x2="596" y2="244"/>
+  </g>
+
+  <!-- ===== HUMAN-JUDGMENT SPINE (bottom) — RED ACCENT ===== -->
+  <text x="32" y="234" font-family="JetBrains Mono, monospace" font-size="9" fill="#C8102E">THE HUMAN-JUDGMENT SPINE — IRREDUCIBLE</text>
+
+  <!-- the connected red spine line -->
+  <line x1="100" y1="262" x2="596" y2="262" stroke="#C8102E" stroke-width="2.4"/>
+
+  <!-- judgment nodes; three marked as the irreducible points -->
+  <g font-family="Inter, sans-serif" font-size="9.5" fill="#2a1a0e" text-anchor="middle">
+    <!-- Design node -->
+    <circle cx="100" cy="262" r="6" fill="#C8102E"/>
+    <text x="100" y="288">author the SCOPE:</text>
+    <text x="100" y="300">claim · exclusions</text>
+
+    <!-- Audit node (MARKED 1) -->
+    <circle cx="224" cy="262" r="8" fill="#C8102E"/>
+    <text x="224" y="280" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8102E">[1]</text>
+    <text x="224" y="296">what counts as a</text>
+    <text x="224" y="308">gap; quarantine</text>
+
+    <!-- Generate node (MARKED 2) -->
+    <circle cx="348" cy="262" r="8" fill="#C8102E"/>
+    <text x="348" y="280" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8102E">[2]</text>
+    <text x="348" y="296">axis-zero, color</text>
+    <text x="348" y="308">ceiling, the accent</text>
+
+    <!-- Verify node -->
+    <circle cx="472" cy="262" r="6" fill="#C8102E"/>
+    <text x="472" y="288">ship / no-ship</text>
+    <text x="472" y="300">against the spec</text>
+
+    <!-- Handoff node (MARKED 3) -->
+    <circle cx="596" cy="262" r="8" fill="#C8102E"/>
+    <text x="596" y="280" font-family="JetBrains Mono, monospace" font-size="8" fill="#C8102E">[3]</text>
+    <text x="596" y="296">imported position</text>
+    <text x="596" y="308">is wrong; own "correct"</text>
+  </g>
+
+  <!-- footnote -->
+  <text x="32" y="350" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">Read the spine left to right: it is the design-intelligence layer. The agent's lane is execution — real, fast, and</text>
+  <text x="32" y="366" font-family="Inter, sans-serif" font-size="10.5" fill="#545454">incapable of supplying a single node on the spine. The three marked points are named in DISCLOSURE.md.</text>
+
+  <!-- legend -->
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#545454">
+    <rect x="32" y="384" width="12" height="12" fill="#F5F5F5" stroke="#D4D4D4"/>
+    <text x="50" y="394">AGENT EXECUTION (NEUTRAL)</text>
+    <line x1="290" y1="390" x2="318" y2="390" stroke="#C8102E" stroke-width="2.4"/>
+    <circle cx="304" cy="390" r="6" fill="#C8102E"/>
+    <text x="326" y="394">RED = THE HUMAN-JUDGMENT SPINE (THE BOOK'S THESIS)</text>
+  </g>
+</svg>

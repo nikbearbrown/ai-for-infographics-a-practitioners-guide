@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">Two organizations of one file</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">Paint order (depth) and editorial grouping (meaning) conflict &#8212; until you make them two axes</text>
+
+  <!-- LEFT: paint order (depth, outer axis) -->
+  <rect x="32" y="84" width="200" height="296" fill="#F5F5F5"/>
+  <text x="44" y="106" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">PAINT ORDER (DEPTH)</text>
+  <!-- downward arrow = later paints on top -->
+  <line x1="48" y1="120" x2="48" y2="356" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="60" y="136" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">background &#8212; back</text>
+  <text x="60" y="166" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">axes</text>
+  <text x="60" y="196" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">data</text>
+  <text x="60" y="226" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">reference</text>
+  <text x="60" y="256" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">annotations</text>
+  <text x="60" y="286" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">titles &#8212; front</text>
+  <text x="44" y="372" font-family="Inter, sans-serif" font-size="10" fill="#545454">later = on top</text>
+
+  <!-- COLLISION marker (RED): the label that slides behind its mark -->
+  <text x="252" y="200" font-family="JetBrains Mono, monospace" font-size="10" fill="#C8102E" text-anchor="middle">COLLISION</text>
+  <text x="252" y="216" font-family="Inter, sans-serif" font-size="10" fill="#C8102E" text-anchor="middle">label slides</text>
+  <text x="252" y="230" font-family="Inter, sans-serif" font-size="10" fill="#C8102E" text-anchor="middle">behind cell</text>
+  <line x1="252" y1="240" x2="252" y2="270" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- RIGHT: editorial meaning (inner axis) -->
+  <rect x="288" y="84" width="200" height="296" fill="#F5F5F5"/>
+  <text x="300" y="106" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">EDITORIAL (BY KIND)</text>
+  <g font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">
+    <rect x="300" y="120" width="172" height="24" fill="#FFFFFF" stroke="#D4D4D4"/><text x="310" y="136">layer-data</text>
+    <rect x="300" y="150" width="172" height="24" fill="#FFFFFF" stroke="#D4D4D4"/><text x="310" y="166">layer-axes</text>
+    <rect x="300" y="180" width="172" height="24" fill="#FFFFFF" stroke="#C8102E"/><text x="310" y="196" fill="#C8102E">layer-annotations</text>
+    <rect x="300" y="210" width="172" height="24" fill="#FFFFFF" stroke="#D4D4D4"/><text x="310" y="226">layer-titles</text>
+  </g>
+  <text x="300" y="270" font-family="Inter, sans-serif" font-size="10" fill="#545454">"select all annotations"</text>
+  <text x="300" y="284" font-family="Inter, sans-serif" font-size="10" fill="#545454">= one named layer</text>
+
+  <!-- RESOLUTION arrow + panel -->
+  <line x1="492" y1="232" x2="524" y2="232" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="532" y="84" width="136" height="296" fill="#2a1a0e"/>
+  <text x="544" y="106" font-family="JetBrains Mono, monospace" font-size="10" fill="#FFFFFF">RESOLUTION</text>
+  <text x="544" y="134" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">Depth =</text>
+  <text x="544" y="152" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">OUTER axis</text>
+  <text x="544" y="186" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">Meaning =</text>
+  <text x="544" y="204" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#FFFFFF">INNER axis</text>
+  <line x1="544" y1="224" x2="656" y2="224" stroke="#545454" stroke-width="1"/>
+  <text x="544" y="248" font-family="Inter, sans-serif" font-size="10" fill="#D4D4D4">Layers ordered by</text>
+  <text x="544" y="262" font-family="Inter, sans-serif" font-size="10" fill="#D4D4D4">depth; each holds</text>
+  <text x="544" y="276" font-family="Inter, sans-serif" font-size="10" fill="#D4D4D4">semantic sub-groups</text>
+  <text x="544" y="300" font-family="Inter, sans-serif" font-size="10" fill="#D4D4D4">named by kind.</text>
+
+  <text x="32" y="404" font-family="Inter, sans-serif" font-size="11" fill="#545454">No code generator makes this decision for you &#8212; it optimizes for the rendering reader, not the editorial one.</text>
+</svg>

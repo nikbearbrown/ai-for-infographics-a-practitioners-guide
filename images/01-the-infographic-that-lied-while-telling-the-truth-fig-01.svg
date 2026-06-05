@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"><rect width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="36" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#2a1a0e">Same data, two claims: a true 4× shown as a perceptual 16×</text>
+<text x="32" y="54" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">8 VS 2 SEVERE CASES PER 1,000 — THE NUMBERS NEVER CHANGE, ONLY THE CHANNEL</text>
+
+<!-- LEFT panel: honest bars -->
+<rect x="32" y="72" width="300" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+<text x="48" y="96" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">LENGTH ON A COMMON BASELINE</text>
+<!-- baseline -->
+<line x1="64" y1="332" x2="316" y2="332" stroke="#2a1a0e" stroke-width="2"/>
+<!-- bar 8 -> 200px tall -->
+<rect x="96" y="132" width="64" height="200" fill="#2a1a0e"/>
+<text x="128" y="124" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">8</text>
+<!-- bar 2 -> 50px tall -->
+<rect x="216" y="282" width="64" height="50" fill="#2a1a0e"/>
+<text x="248" y="274" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">2</text>
+<text x="128" y="350" text-anchor="middle" font-family="'Inter', Helvetica, sans-serif" font-size="11" fill="#545454">Unvaccinated</text>
+<text x="248" y="350" text-anchor="middle" font-family="'Inter', Helvetica, sans-serif" font-size="11" fill="#545454">Vaccinated</text>
+<text x="182" y="368" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" fill="#2a1a0e">READS 4× — HONEST</text>
+
+<!-- RIGHT panel: misleading circles -->
+<rect x="368" y="72" width="300" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+<text x="384" y="96" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1px" fill="#545454">DIAMETER SCALED — AREA GOES AS r²</text>
+<!-- big circle: diameter 4x, red accent (the lie) -->
+<circle cx="468" cy="236" r="72" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+<circle cx="468" cy="236" r="72" fill="#C8102E" fill-opacity="0.12"/>
+<text x="468" y="242" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="16" fill="#2a1a0e">8</text>
+<!-- small circle: diameter 1x -->
+<circle cx="600" cy="290" r="18" fill="#2a1a0e"/>
+<text x="600" y="295" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="12" fill="#FFFFFF">2</text>
+<text x="468" y="338" text-anchor="middle" font-family="'Inter', Helvetica, sans-serif" font-size="11" fill="#545454">Unvaccinated</text>
+<text x="600" y="320" text-anchor="middle" font-family="'Inter', Helvetica, sans-serif" font-size="11" fill="#545454">Vaccinated</text>
+<text x="518" y="368" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" fill="#C8102E">READS 16× — THE LIE</text>
+</svg>

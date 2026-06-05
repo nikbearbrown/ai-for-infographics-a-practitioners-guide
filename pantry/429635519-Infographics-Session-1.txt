@@ -1,0 +1,496 @@
+                  Data Visualization
+                  Using Infographics
+                 Upper Story Serviced Apartments, Cubao
+                           October 7 – 11, 2019
+
+
+
+
+Biodiversity Management Bureau
+Data Visualization Using Infographics
+Data Visualization Using Infographics
+https://infogram.com/blog/a-brief-look-at-the-fascinating-history-of-infographics/
+
+
+
+
+                                                                                     https://www.lucidpress.com/blog/6-ways-infographics-changed-history
+
+
+
+
+        Data Visualization Using Infographics
+Maps are
+infographic
+too!
+
+
+
+
+                                          https://www.ph.ucla.edu/epi/snow/mapsbroadstreet.html
+Dr. John Snow’s
+map of the 1854
+London Cholera
+Outbreak
+
+
+  Data Visualization Using Infographics
+     Napoleon’s Retreat from Moscow (1812) by
+     Charles Minard “The Map that Made a Nation Cry”
+
+
+
+
+https://bigthink.com/strange-maps/229-vital-statistics-of-a-deadly-campaign-the-minard-map
+
+
+           Data Visualization Using Infographics
+Data Presentation vs. Data Visualization
+
+ Presentation
+ - Uses data visuals to communicate and
+   persuade
+
+ Visualization
+ - Uses data visuals to think
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+1. It provides the highest bandwidth channel to
+   the brain.
+   • 65% of humans are visual learners.
+         (Mind Tools, 1998)
+    • The brain processes visual information
+      60,000 times faster than text.
+        (3M Corporation, 2001)
+    • 70% of all sensory receptors are in the eye.
+ Data Visualization Using Infographics
+Population by
+Region, Philippines:
+2015
+Source: Philippine Statistics Authority
+
+
+
+
+         Data Visualization Using Infographics
+                        AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)
+                                                        REGION XIII – CARAGA
+                                                 REGION XII - SOCCSKSARGEN
+                                                           REGION XI - DAVAO
+                                           REGION X - NORTHERN MINDANAO
+                                         REGION IX - ZAMBOANGA PENINSULA
+                                                REGION VIII - EASTERN VISAYAS
+Administrative Region
+
+
+
+
+                                                REGION VII - CENTRAL VISAYAS
+                                                REGION VI - WESTERN VISAYAS
+                                                             REGION V - BICOL
+                                                           MIMAROPA REGION
+                                                  REGION IV-A – CALABARZON
+                                                   REGION III - CENTRAL LUZON
+                                                 REGION II - CAGAYAN VALLEY
+                                                             REGION I - ILOCOS
+                                        CORDILLERA ADMINISTRATIVE REGION
+                                                   NATIONAL CAPITAL REGION
+                                                                                 0   2,000,000   4,000,000   6,000,000   8,000,000    10,000,000   12,000,000   14,000,000   16,000,000
+
+                                                                                                                         Population
+
+                           Data Visualization Using Infographics
+       Data on the number of destructive tropical cyclones
+          that entered the Philippines from 2010 to 2015
+
+
+
+
+Data Visualization Using Infographics   Source: National Disaster Risk Reduction and Management Council
+Data Visualization Using Infographics
+Why is Data Visualization Important?
+    2. Uncovers data structures
+
+
+                                              An alternative way of
+                                            visualizing the Philippine
+                                                 election results
+                                         https://stories.thinkingmachin.es/election2016/
+
+
+
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+3. Uncovers hidden patterns
+
+
+
+
+                                         Source:
+                                         https://www.esquiremag.ph/wheels/drive/a-scientific-analysis-
+                                         of-metro-manila-s-impending-christmas-traffic-a1628-20170915
+
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+
+
+
+
+                                         https://tjpalanca.com/2015/05/mrt-capacity-conundrum.html
+ Entries         Exits
+
+
+
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+4. Uncovers potential relationships
+
+
+
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+5. Grabs attention!
+
+
+
+
+ Data Visualization Using Infographics
+Why is Data Visualization Important?
+
+
+
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+The Data Visualization Catalogue
+
+
+
+
+                                         https://datavizcatalogue.com/
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+What do you want to show?
+   •    Comparison and Ranking
+   •    Trends over Time
+   •    Part-to-Whole
+   •    Distribution
+   •    Correlation
+   •    Geographical Data
+
+                                         https://datavizcatalogue.com/
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+For comparison and ranking use . .
+   Bar Chart
+   • It represents quantitative values with the length of
+   the bars, which makes the comparison of values
+   easier.
+   • It is ideal for qualitative variables or quantitative
+   variables that have been categorized.
+
+ Data Visualization Using Infographics
+Bar Chart | Best Practices
+• Start the y-axis at zero, whenever necessary.
+
+
+
+
+  Data Visualization Using Infographics
+Bar Chart | Best Practices
+• Space bars appropriately (½ bar width).
+
+
+
+
+  Data Visualization Using Infographics
+Bar Chart | Best Practices
+• Arrange the bars according to the magnitude, whenever necessary.
+
+
+
+
+  Data Visualization Using Infographics
+Bar Chart | Best Practices
+• Use consistent colors.
+
+
+
+
+  Data Visualization Using Infographics
+Bar Chart | Best Practices
+
+   • Vertical bar charts are best used when
+     comparing values in a time series data or when
+     the magnitude is emphasized rather than the
+     movement of a time series.
+
+   • Horizontal bar charts are best used when using
+     categorical data with long labels.
+
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+For trends over time use . .
+   1. Line Chart
+   • It gives a quick view of the trend, acceleration,
+     deceleration, and volatility of the data.
+
+   • It is also possible to look at multiple data sets.
+
+
+ Data Visualization Using Infographics
+Line Chart | Best Practices
+• Include a zero baseline, whenever necessary.
+
+
+
+
+  Data Visualization Using Infographics
+Line Chart | Best Practices
+• Spacing of the time series units must remain constant.
+
+
+
+
+  Data Visualization Using Infographics
+Line Chart | Best Practices
+• Label lines directly.
+
+
+
+
+  Data Visualization Using Infographics
+Line Chart | Best Practices
+• Maintain a 2:3 or 3:4 height to width ratio.
+
+
+
+
+  Data Visualization Using Infographics
+Choosing the Right Chart Type
+For part to whole use . .
+   1. Pie Chart
+   • It is the most popular yet most misused chart.
+   • It is also best used when:
+       • the proportion (or percentage) holds more
+           importance than specific numbers, and
+       • dealing with small datasets.
+
+ Data Visualization Using Infographics
+Pie Chart | Best Practices
+• Visualize no more than five categories.
+
+
+
+
+  Data Visualization Using Infographics
+Pie Chart | Best Practices
+• Order slices correctly. Place largest slice in 12 o’clock position then
+  arrange the order in a clockwise or counterclockwise manner.
+
+
+
+
+  Data Visualization Using Infographics
+Pie Chart | Best Practices
+• Make sure all slice sizes add up to 100%.
+
+
+
+
+  Data Visualization Using Infographics
+Pie Chart | Best Practices
+• Don’t use multiple pie charts for comparison.
+
+
+
+
+  Data Visualization Using Infographics
+Choosing the Right Chart Type
+        Resist pie charts!
+        • Comparing multiple pie charts are hard.
+        • The varying colors of the pie slices have an
+          additional cognitive load.
+        • Pie charts are not recommended when
+          presenting too many categories.
+
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+For part to whole use . .
+   2. Stacked Bar Chart
+   • It is a variation of the bar chart wherein each
+     bar represents a whole and the segments in
+     each bar represent different categories of
+     the said whole.
+
+
+
+ Data Visualization Using Infographics
+Part to Whole| Stacked Bar Chart
+
+
+
+
+ Data Visualization Using Infographics
+Choosing the Right Chart Type
+For distribution use . .
+   1. Histogram
+   • It is ideal for showing frequency or
+     percentage of a continuous variable.
+   • The data values are broken into segments
+     called as bins.
+
+
+ Data Visualization Using Infographics
+Histogram| Best Practices
+• Choose the right number of bins.
+
+
+
+
+  Data Visualization Using Infographics
+Histogram| Best Practices
+• Bars must be touching each other.
+
+
+
+
+  Data Visualization Using Infographics
+Choosing the Right Chart Type
+For geographical data use . .
+   1. Map
+   • It is used for spatial or geographic analysis
+   • Thematic maps use the attributes of a
+     location and represent the data using visual
+     elements in order to discover spatial
+     patterns and relationships in the data.
+
+ Data Visualization Using Infographics
+                        Cognitive Load
+                         and Clutter
+
+
+Biodiversity Management Bureau
+Biodiversity Management Bureau
+Cognitive Load
+ is the amount of mental effort required to interpret information.
+
+
+   Three types:
+   • Intrinsic
+   • Extraneous
+   • Germane
+
+
+
+ Data Visualization Using Infographics
+Types of Cognitive Load
+Intrinsic Cognitive Load
+is the amount of memory needed to understand something.
+
+
+
+
+ Data Visualization Using Infographics
+Types of Cognitive Load
+Extraneous
+Cognitive
+Load
+is the amount
+of extra brain
+power that
+relates to how
+information is
+presented.
+
+
+ Data Visualization Using Infographics
+Types of Cognitive Load
+
+ Germane
+ Cognitive Load
+ is the amount of
+ memory used for
+ detecting patterns in
+ order to develop
+ context for later
+ reference.
+
+ Data Visualization Using Infographics
+Germane Cognitive load
+
+
+
+
+ Data Visualization Using Infographics
+Clutter
+ refers to the elements that can be removed while still
+ preserving key ideas.
+
+    • Reducing clutter means minimizing cognitive load.
+    • Less cluttered visualizations are those which are
+      more effective.
+
+
+
+
+ Data Visualization Using Infographics
+Reducing Clutter and Minimizing Cognitive Load
+ Avoid chart junk
+    • Chart junk refers to all visual elements in charts and
+      graphs that are not necessary to comprehend the
+      information represented on the graph.
+    • Simply, chart junk distracts the viewer from the
+      information.
+
+
+
+
+ Data Visualization Using Infographics
+Common Chart Junk: Optical Art
+
+
+
+
+ Data Visualization Using Infographics
+Common Chart Junk: Grid
+
+
+
+
+ Data Visualization Using Infographics
+Common Chart Junk: The Duck
+
+
+
+
+ Data Visualization Using Infographics
+Reducing Clutter and Minimizing Cognitive Load
+ Use of appropriate perspective
+
+    • Say “NO” to 3D charts!
+    • 3D charts offer no additional information.
+    • 3D charts can be misleading.
+
+
+
+
+ Data Visualization Using Infographics
+                         THANK YOU!
+                            Data Visualization
+                            Using Infographics
+
+
+
+
+Biodiversity Management Bureau
+

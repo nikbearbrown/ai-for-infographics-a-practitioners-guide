@@ -1,0 +1,67 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#2a1a0e">CAJAL: from vague brief to defensible figure</text>
+  <text x="32" y="60" font-family="Inter, sans-serif" font-size="12" fill="#545454">The judgment is here; the SVG is downstream. SCOPE runs in dependency order.</text>
+
+  <!-- Vague brief -->
+  <rect x="32" y="92" width="120" height="220" fill="#F5F5F5" stroke="#D4D4D4"/>
+  <text x="92" y="112" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" text-anchor="middle">VAGUE BRIEF</text>
+  <text x="42" y="196" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e" font-style="italic">"show deploys</text>
+  <text x="42" y="212" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e" font-style="italic">vs. incidents</text>
+  <text x="42" y="228" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e" font-style="italic">for the</text>
+  <text x="42" y="244" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e" font-style="italic">all-hands"</text>
+  <line x1="156" y1="202" x2="192" y2="202" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- SCOPE stack -->
+  <text x="200" y="86" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454">SCOPE SPECIFICATION</text>
+  <g font-family="EB Garamond, Georgia, serif" font-size="13">
+    <rect x="200" y="92" width="250" height="38" fill="#2a1a0e"/>
+    <text x="212" y="110" fill="#FFFFFF">S &#183; Specification</text>
+    <text x="212" y="124" font-family="Inter, sans-serif" font-size="9" fill="#D4D4D4">the one-sentence claim, audience, medium</text>
+
+    <rect x="200" y="134" width="250" height="38" fill="#2a1a0e"/>
+    <text x="212" y="152" fill="#FFFFFF">C &#183; Content</text>
+    <text x="212" y="166" font-family="Inter, sans-serif" font-size="9" fill="#D4D4D4">relationship type, marks &amp; channels</text>
+
+    <rect x="200" y="176" width="250" height="38" fill="#2a1a0e"/>
+    <text x="212" y="194" fill="#FFFFFF">O &#183; Organization</text>
+    <text x="212" y="208" font-family="Inter, sans-serif" font-size="9" fill="#D4D4D4">layout, reading order, the 8px grid</text>
+
+    <rect x="200" y="218" width="250" height="38" fill="#2a1a0e"/>
+    <text x="212" y="236" fill="#FFFFFF">P &#183; Presentation</text>
+    <text x="212" y="250" font-family="Inter, sans-serif" font-size="9" fill="#D4D4D4">tokens by role, type, annotation plan</text>
+
+    <!-- E: RED accent — highest-leverage block -->
+    <rect x="200" y="260" width="250" height="44" fill="#C8102E"/>
+    <text x="212" y="280" fill="#FFFFFF">E &#183; EXCLUSIONS</text>
+    <text x="212" y="296" font-family="Inter, sans-serif" font-size="9" fill="#FFFFFF">what is left out &#8212; the highest-leverage block</text>
+  </g>
+
+  <!-- dependency note -->
+  <text x="200" y="324" font-family="Inter, sans-serif" font-size="9" fill="#545454">Each block depends on the one above; exclusions come last because you can only</text>
+  <text x="200" y="336" font-family="Inter, sans-serif" font-size="9" fill="#545454">know what to omit once you know all the figure could have been.</text>
+
+  <line x1="454" y1="202" x2="490" y2="202" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- DESIGN.md -->
+  <rect x="498" y="92" width="170" height="220" fill="#F5F5F5" stroke="#C8860E" stroke-width="2"/>
+  <text x="583" y="112" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" text-anchor="middle">DESIGN.md</text>
+  <text x="510" y="140" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">The constitution</text>
+  <text x="510" y="156" font-family="Inter, sans-serif" font-size="11" fill="#2a1a0e">the tool obeys:</text>
+  <text x="510" y="180" font-family="Inter, sans-serif" font-size="10" fill="#545454">&#8226; 7 tokens by role</text>
+  <text x="510" y="196" font-family="Inter, sans-serif" font-size="10" fill="#545454">&#8226; type stack</text>
+  <text x="510" y="212" font-family="Inter, sans-serif" font-size="10" fill="#545454">&#8226; layout type</text>
+  <text x="510" y="228" font-family="Inter, sans-serif" font-size="10" fill="#545454">&#8226; annotation plan</text>
+  <text x="510" y="244" font-family="Inter, sans-serif" font-size="10" fill="#C8102E">&#8226; exclusions as</text>
+  <text x="510" y="258" font-family="Inter, sans-serif" font-size="10" fill="#C8102E">&#160;&#160;prohibitions</text>
+  <line x1="510" y1="272" x2="656" y2="272" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="510" y="292" font-family="Inter, sans-serif" font-size="10" fill="#545454">SCOPE is thinking;</text>
+  <text x="510" y="305" font-family="Inter, sans-serif" font-size="10" fill="#545454">DESIGN.md is instruction.</text>
+
+  <text x="32" y="364" font-family="Inter, sans-serif" font-size="11" fill="#545454">A specification with a rich Exclusions block produces a clean figure on the first generation.</text>
+  <text x="32" y="382" font-family="Inter, sans-serif" font-size="11" fill="#545454">The figure is correct before it exists. The SVG is downstream; the judgment is here.</text>
+</svg>

@@ -1,0 +1,11 @@
+# CAJAL SVG Generation Log — Brutalist SVG × Claude (AI for Infographics)
+
+## Run: 2026-05-31
+Full CAJAL figure pass on the 16 content chapters (Introduction + 15). Planned figures per chapter, wrote per-chapter CAJAL reports (`pantry/<stem>-cajal.md`), generated static SVGs, inserted figure references (`images/<stem>-fig-NN.png` + italic caption), and rasterized SVG→PNG via Python svglib/reportlab at 2917px.
+
+**Important — figures use the BOOK'S OWN design system, not the generic series house style.** Because this book *teaches* the Brutalist SVG system, every figure exemplifies it: the seven tokens (white #FFFFFF, ink #2a1a0e, red #C8102E as the single data accent, grey #545454, light grey #D4D4D4, ochre #C8860E used structurally and **never** to encode data, panel #F5F5F5); the three-font stack (EB Garamond / Inter / JetBrains Mono); the 8px grid; viewBox 0 0 700 420; shared arrow marker; `&` escaped. Each figure carries exactly one red accent element. The stale scaffold (old `*-cajal.md` + `*-wayback.md`) was archived to `pantry/_stale-scaffold/` before this pass.
+
+## Summary
+Content chapters processed: 16 · SVGs: 23 · PNGs: 23 · figure references inserted: 23.
+Consistency: every referenced figure resolves to a real PNG — **zero orphans, zero broken references** (verified programmatically). All SVGs well-formed XML; palette audited to the seven sanctioned tokens only (no off-palette colors, gradients, or shadows); ochre never encodes data.
+Signature figures: the labor split / design-intelligence-is-human (I.1); same data honest-bars vs misleading-area, the lie (1.1); the Cleveland–McGill channel-accuracy ladder (1.1/2.1/6.1); the blur test (3.1); SVG seen three ways (4.1); the seven-token spec board rendered in its own system (5.1/8.1); the painter's-algorithm vs editorial-grouping conflict (7.1); the four-job annotation gate (9.1); the brief→SCOPE→DESIGN.md pipeline (10.1); the Audit→Schema→Generate→Verify→Handoff pipeline with the locked human-judgment gate (11.1); the Audit phase gate (12.1); specification-driven vs specification-less output (13.1); browser-correct vs production-editable handoff (14.1); the whole pipeline with the three irreducible human-judgment points (15.1).

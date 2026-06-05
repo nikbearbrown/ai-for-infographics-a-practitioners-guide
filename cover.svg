@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#1B6B5A"/></g>
+  <g id="symbol-fragments" transform="rotate(-6, 800, 850)">
+    <path d="M 360 1060 C 420 499, 470 424, 560 551 C 535 631, 585 315, 675 421 C 650 608, 700 384, 790 604 C 765 582, 815 654, 905 654 C 880 731, 930 367, 1020 778 C 995 704, 1045 542, 1135 741 C 1110 878, 1160 431, 1250 874" fill="none" stroke="#F5F0E8" stroke-width="88" stroke-linecap="butt"/>
+    <polygon points="1067,605 990,690 908,619 851,552 911,487 1011,486 1071,539" fill="#F5C518"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1370" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#F5C518">AI FOR</text>
+    <text x="120" y="1545" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#F5F0E8" textLength="1300" lengthAdjust="spacingAndGlyphs">INFOGRAPHICS</text>
+    <text x="120" y="1720" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#F5C518">A</text>
+    <text x="120" y="1895" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#F5C518" textLength="1300" lengthAdjust="spacingAndGlyphs">PRACTITIONERS</text>
+    <text x="120" y="2070" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#F5C518">GUIDE</text>
+  </g>
+</svg>
